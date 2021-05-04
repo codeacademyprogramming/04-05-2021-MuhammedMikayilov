@@ -1,0 +1,32 @@
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+
+    .navbar-nav{
+        margin-left: 15%;
+        .nav-link{
+            color: $textColor;
+        }
+    }
+    .form-inline{
+        .logIn {
+            text-decoration: none;
+            color: $textColor;
+        }
+        .button-getStarted{
+            @extend %btn-color;
+        }
+    }
+}
+
+
+@media (max-width: 350px) {
+    .navbar {
+        position: relative !important;
+        background-color: #e6f0fe !important;
+    }
+}

@@ -1,0 +1,86 @@
+.navbar .form-inline .button-getStarted, #intro .items-title .button-intro {
+  background-color: #7854F7 !important;
+  color: #fff !important;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+}
+
+.navbar .navbar-nav {
+  margin-left: 15%;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #272D4E;
+}
+
+.navbar .form-inline .logIn {
+  text-decoration: none;
+  color: #272D4E;
+}
+
+@media (max-width: 350px) {
+  .navbar {
+    position: relative !important;
+    background-color: #e6f0fe !important;
+  }
+}
+
+#intro {
+  background-image: url("../images/intro.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+#intro .items-title h1 {
+  font-size: 50px;
+  margin: 25px 0;
+}
+
+#intro .items-title p {
+  color: #94A2B3;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+#intro .items-title .button-intro {
+  padding: 15px 40px;
+  border-radius: 30px;
+}
+
+#intro .items-title .customizeBtn {
+  color: #299EF3;
+  cursor: pointer;
+}
+
+#intro .items-title .customizeBtn span {
+  color: #94A2B3;
+  cursor: text;
+}
+
+@media (max-width: 350px) {
+  #intro {
+    height: 70vh;
+  }
+  #intro .items-title h1 {
+    font-size: 15px !important;
+    margin: 25px 0;
+  }
+  #intro .items-title p {
+    font-size: 8px !important;
+  }
+  #intro .items-title .button-intro {
+    font-size: 4px !important;
+    padding: 5px 10px !important;
+  }
+  #intro .items-title .customizeBtn {
+    font-size: 4px !important;
+  }
+}
