@@ -1,0 +1,50 @@
+#info{
+    background-image: url("../images/section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 50px;
+    padding-top: 6%;
+
+    .work-img{
+        margin-top: -38%;
+    }
+
+    .team-img{
+        margin-top: -10%;
+    }
+
+    .info-item{
+        h2{color: #fff;}
+        p{color: #fff;}
+    }
+    
+    %btn-info{
+        border-radius: 30px;
+        padding: 15px 30px;
+        border: none !important;
+    }
+
+    .btnInfo{
+        @extend %btn-info
+    }
+}
+
+@media (max-width: 765px){
+    #info{
+        height: auto !important;
+
+        .work-img{
+            margin-top: 0 !important;
+        }
+    
+        .team-img{
+            margin-top: 0 !important;
+        }
+
+        .info-item {
+            text-align: center !important;
+        }
+    }
+}

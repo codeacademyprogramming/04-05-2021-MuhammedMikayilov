@@ -1,0 +1,24 @@
+#people{
+    .people-item{
+        h1{
+            color: $textColor;
+        }
+        p{
+            font-size: 14px;
+            color: $paragraphColor;
+        }
+    }
+}
+
+#woo-commerce{
+    background-color: #5F37EF;
+    padding: 100px;
+    h5{color: #fff;}
+
+    .button-started{
+        color: #fff;
+        padding: 10px 15px;
+        border: 2px solid #fff;
+        border-radius: 30px;
+    }
+}

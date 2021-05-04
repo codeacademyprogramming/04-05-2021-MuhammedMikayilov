@@ -1,0 +1,265 @@
+.navbar .form-inline .button-getStarted, #intro .items-title .button-intro {
+  background-color: #7854F7 !important;
+  color: #fff !important;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+}
+
+.navbar .navbar-nav {
+  margin-left: 15%;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #272D4E;
+}
+
+.navbar .form-inline .logIn {
+  text-decoration: none;
+  color: #272D4E;
+}
+
+@media (max-width: 350px) {
+  .navbar {
+    position: relative !important;
+    background-color: #e6f0fe !important;
+  }
+}
+
+#intro {
+  background-image: url("../images/intro.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+#intro .items-title h1 {
+  font-size: 50px;
+  margin: 25px 0;
+}
+
+#intro .items-title p {
+  color: #94A2B3;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+#intro .items-title .button-intro {
+  padding: 15px 40px;
+  border-radius: 30px;
+}
+
+#intro .items-title .customizeBtn {
+  color: #299EF3;
+  cursor: pointer;
+}
+
+#intro .items-title .customizeBtn span {
+  color: #94A2B3;
+  cursor: text;
+}
+
+@media (max-width: 775px) {
+  #intro {
+    height: 70vh;
+  }
+  #intro .items-title h1 {
+    font-size: 15px !important;
+    margin: 25px 0;
+  }
+  #intro .items-title p {
+    font-size: 8px !important;
+  }
+  #intro .items-title .button-intro {
+    font-size: 4px !important;
+    padding: 5px 10px !important;
+  }
+  #intro .items-title .customizeBtn {
+    font-size: 4px !important;
+  }
+}
+
+#e-commerce .title h1 {
+  color: #272D4E;
+}
+
+#e-commerce .text-area {
+  padding-left: 30px;
+}
+
+#e-commerce .text-area h4 {
+  color: #272D4E;
+}
+
+#e-commerce .text-area p {
+  color: #94A2B3;
+}
+
+#e-commerce .text-area span {
+  color: #299EF3;
+}
+
+#info {
+  background-image: url("../images/section.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 50px;
+  padding-top: 6%;
+}
+
+#info .work-img {
+  margin-top: -38%;
+}
+
+#info .team-img {
+  margin-top: -10%;
+}
+
+#info .info-item h2 {
+  color: #fff;
+}
+
+#info .info-item p {
+  color: #fff;
+}
+
+#info .btnInfo {
+  border-radius: 30px;
+  padding: 15px 30px;
+  border: none !important;
+}
+
+@media (max-width: 765px) {
+  #info {
+    height: auto !important;
+  }
+  #info .work-img {
+    margin-top: 0 !important;
+  }
+  #info .team-img {
+    margin-top: 0 !important;
+  }
+  #info .info-item {
+    text-align: center !important;
+  }
+}
+
+#testimonial {
+  background-image: url("../images/testimonials.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  padding-top: 120px;
+  height: 100vh;
+}
+
+#testimonial .title {
+  text-align: center;
+}
+
+#testimonial .title h2 {
+  color: #272D4E;
+}
+
+#testimonial .card {
+  padding: 50px;
+  background-image: url("../images/guotes.png");
+  background-position: top center;
+  background-position-y: 20px;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 50px;
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+  border-radius: 20px;
+}
+
+#testimonial .card p {
+  color: #94A2B3;
+}
+
+#people .people-item h1 {
+  color: #272D4E;
+}
+
+#people .people-item p {
+  font-size: 14px;
+  color: #94A2B3;
+}
+
+#woo-commerce {
+  background-color: #5F37EF;
+  padding: 100px;
+}
+
+#woo-commerce h5 {
+  color: #fff;
+}
+
+#woo-commerce .button-started {
+  color: #fff;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+}
+
+#footer-top {
+  background: #7854F7;
+  padding: 50px;
+}
+
+#footer-top .light-logo {
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+
+#footer-top hr {
+  width: 100%;
+  color: #9b80fa;
+  margin-bottom: 5%;
+}
+
+#footer-top .footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer-top .footer-list h5 {
+  text-transform: uppercase;
+}
+
+#footer-top .footer-list .footer-list-item {
+  color: white;
+  cursor: pointer;
+  margin: 2px 0;
+}
+
+#footer-bottom {
+  padding: 30px 0;
+}
+
+#footer-bottom .title p {
+  color: #272D4E;
+  font-size: 12px;
+  margin-top: 1.5%;
+}
+
+@media (max-width: 767px) {
+  #footer-bottom {
+    display: none;
+  }
+  #footer-top .footer-list h5 {
+    margin-top: 10%;
+    margin-bottom: 0;
+  }
+}

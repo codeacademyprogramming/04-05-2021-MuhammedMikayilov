@@ -1,0 +1,58 @@
+#intro{
+    background-image: url("../images/intro.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // padding: 150px 0;
+    height: 100vh;
+
+
+    .items-title{
+        h1{
+            font-size: 50px;
+            margin: 25px 0;
+        }
+        p{
+            color: $paragraphColor;
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+        .button-intro{
+            @extend %btn-color;
+            padding: 15px 40px;
+            border-radius: 30px;
+        }
+
+        .customizeBtn {
+            color: $linkColor;
+            cursor: pointer;
+            span{
+                color: #94A2B3;
+                cursor: text;
+            }
+        }
+    }
+}
+
+@media (max-width: 775px){
+    #intro {
+        height: 70vh;
+        .items-title{
+            h1{
+                font-size: 15px !important;
+                margin: 25px 0;
+            }
+            p{
+                font-size: 8px !important;
+            }
+    
+            .button-intro{
+                font-size: 4px !important;
+                padding: 5px 10px !important;
+            }
+            .customizeBtn{
+                font-size: 4px !important;
+            }
+        }
+    }
+}
