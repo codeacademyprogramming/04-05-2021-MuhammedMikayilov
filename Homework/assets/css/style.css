@@ -186,3 +186,28 @@
 #testimonial .card p {
   color: #94A2B3;
 }
+
+#people .people-item h1 {
+  color: #272D4E;
+}
+
+#people .people-item p {
+  font-size: 14px;
+  color: #94A2B3;
+}
+
+#woo-commerce {
+  background-color: #5F37EF;
+  padding: 100px;
+}
+
+#woo-commerce h5 {
+  color: #fff;
+}
+
+#woo-commerce .button-started {
+  color: #fff;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+}
