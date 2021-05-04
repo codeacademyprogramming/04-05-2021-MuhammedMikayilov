@@ -84,3 +84,23 @@
     font-size: 4px !important;
   }
 }
+
+#e-commerce .title h1 {
+  color: #272D4E;
+}
+
+#e-commerce .text-area {
+  padding-left: 30px;
+}
+
+#e-commerce .text-area h4 {
+  color: #272D4E;
+}
+
+#e-commerce .text-area p {
+  color: #94A2B3;
+}
+
+#e-commerce .text-area span {
+  color: #299EF3;
+}
